@@ -1,0 +1,31 @@
+
+<div class="flex">
+  <div>Lista de clientes
+    <div class="row holi">
+      <table class="table table-bordered">
+          <thead>
+              <tr>
+                  <th>Id</th>
+                  <th>Nombre</th>
+                  <th>Correo</th>
+                  <th>Acciones</th>
+
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let cliente of clientes">
+                  <td>{{cliente._id}}</td>
+                  <td>{{cliente.name}}</td>
+                  <td>{{cliente.email}}</td>                            
+                  <!-- <td><button class="btn btn-primary btt" (click)="selectIngrediente(producto)">Seleccionar</button></td> -->
+                  
+                  <!-- <td><</td> -->
+              </tr>
+          </tbody>
+      </table>
+  </div>
+  </div>
+  <div>Editar cliente
+
+  </div>
+</div>

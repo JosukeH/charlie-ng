@@ -27,9 +27,7 @@ export class ClientesComponent implements OnInit {
       
       this.clientes = data
     },
-    (error : any) => {
-      console.log(error);
-    }
+    (error : any) => console.log(error)
     )
   }
 }

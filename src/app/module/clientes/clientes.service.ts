@@ -38,3 +38,12 @@ export class ClientesService {
   //     localStorage.setItem('user', JSON.stringify(user));
   // }
 }
+ // how fetch
+ //  getUsers(){
+//   this.clientesService.getUsers().subscribe((data: any) => {
+//     console.log(data);
+//     this.clientes = data
+//   },
+//   (error : any) => console.log(error)
+//   )
+// }
